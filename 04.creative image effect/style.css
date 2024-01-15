@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #555;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  background: #222;
+}
+.clip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.clip1 {
+  background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fbeautiful%2520flowers%2F&psig=AOvVaw1xCb8HcBeEGCyAekPxNSiY&ust=1705401841736000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCLCRnpKb34MDFQAAAAAdAAAAABAZ);
+  background-size: cover;
+  background-position: center;
+}
