@@ -1,0 +1,33 @@
+body {
+  background: cyan;
+}
+
+h1 {
+  margin: auto;
+  font-size: 10vh;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+#btn {
+  margin-top: 20vh;
+  border: none;
+  outline: none;
+  background: white;
+  color: rgb(196, 39, 207);
+  border: 5px solid greenyellow;
+  padding: 10px 50px;
+  cursor: pointer;
+  font-weight: 1000;
+}
+#content {
+  margin: auto;
+  padding: 4vh;
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin-top: 20px;
+}
